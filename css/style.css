@@ -10485,7 +10485,7 @@ header .navbar .cta-btn a:hover {
 
 .block-33 .vcard .image img {
   max-width: 100%;
-  border-radius: 50%;
+  border-radius: 0%;
 }
 
 .block-33 .vcard .name-text .heading {
