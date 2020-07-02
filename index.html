@@ -1,173 +1,478 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <title>Tatvus</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tatvus</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 
-  <!-- Font Awesome if you need it
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-  -->
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
-  <!--Replace with your tailwind.css once created-->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
 
-	<!-- Define your gradient here - use online tools to find a gradient matching your branding-->
-	<style>
-		.gradient {
-			background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
-		}
-	</style>
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
-</head>
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
 
-<body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+  </head>
+  <body>
 
-<!--Nav-->
+    <header role="banner">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand " href="index.html">TATVUS</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
+          <div class="collapse navbar-collapse" id="navbarsExample05">
+             <ul class="navbar-nav pl-md-5">
 
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="services.html" aria-haspopup="true" aria-expanded="false">Services</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
 
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- END header -->
 
+    <section class="home-slider owl-carousel">
+      <div class="slider-item" style="background-image: url('images/tat3.png');">
 
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center">
+            <div class="col-md-10 text-center col-sm-12 element-animate">
+              <h1>TATVUS</h1>
+              <p class="mb-5 sub-text">Innovative Textiles</p>
+              <!-- <p><a href="#" class="btn btn-white btn-outline-white px-3 py-3">Get Started</a> <a href="#" class="btn btn-link btn-white">Download</a></p> -->
+            </div>
+          </div>
+        </div>
 
+      </div>
 
+      <!-- <div class="slider-item" style="background-image: url('images/slider-2.jpg');">
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center">
+            <div class="col-md-10 text-center col-sm-12 element-animate">
+              <h1>TATUVS</h1>
+              <p class="mb-5 sub-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+              <p><a href="#" class="btn btn-white btn-outline-white px-3 py-3">Get Started</a> <a href="#" class="btn btn-link btn-white">Download</a></p>
+            </div>
+          </div>
+        </div>
 
+      </div> -->
 
-
-
-<!-- Change the colour #f8fafc to match the previous section colour -->
-<svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-		<g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
-			<g class="wave" fill="#f8fafc">
-				<path d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"></path>
-			</g>
-			<g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
-				<g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
-					<path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
-					<path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.100000001"></path>
-					<path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
-				</g>
-			</g>
-		</g>
-	</g>
-</svg>
-
-<section class="container mx-auto text-center py-6 mb-12">
-
-	<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Tatvus</h1>
-	<div class="w-full mb-4">
-		<div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
-	</div>
-
-	<h3 class="my-4 text-3xl leading-tight">Coming Soon! Innovative Textiles</h3>
-
-
-</section>
-
-
-
-
-  <!-- jQuery if you need it
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  -->
-
-<script>
-
-	var scrollpos = window.scrollY;
-	var header = document.getElementById("header");
-	var navcontent = document.getElementById("nav-content");
-	var navaction = document.getElementById("navAction");
-	var brandname = document.getElementById("brandname");
-	var toToggle = document.querySelectorAll(".toggleColour");
-
-	document.addEventListener('scroll', function() {
-
-	/*Apply classes for slide in bar*/
-	scrollpos = window.scrollY;
-
-    if(scrollpos > 10){
-      header.classList.add("bg-white");
-	  navaction.classList.remove("bg-white");
-	  navaction.classList.add("gradient");
-	  navaction.classList.remove("text-gray-800");
-	  navaction.classList.add("text-white");
-	  //Use to switch toggleColour colours
-  	  for (var i = 0; i < toToggle.length; i++) {
-	     toToggle[i].classList.add("text-gray-800");
-		 toToggle[i].classList.remove("text-white");
-	  }
-	  header.classList.add("shadow");
-	  navcontent.classList.remove("bg-gray-100");
-	  navcontent.classList.add("bg-white");
-    }
-    else {
-	  header.classList.remove("bg-white");
-	  navaction.classList.remove("gradient");
-	  navaction.classList.add("bg-white");
-	  navaction.classList.remove("text-white");
-	  navaction.classList.add("text-gray-800");
-	  //Use to switch toggleColour colours
-  	  for (var i = 0; i < toToggle.length; i++) {
-	     toToggle[i].classList.add("text-white");
-		 toToggle[i].classList.remove("text-gray-800");
-	  }
-
-	  header.classList.remove("shadow");
-	  navcontent.classList.remove("bg-white");
-	  navcontent.classList.add("bg-gray-100");
-
-    }
-
-	});
+    </section>
+    <!-- END slider -->
 
 
-</script>
+    <section class="section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 element-animate ">
+            <div class="media block-6 d-block text-center">
+              <div class="icon mb-3"><span class="ion-ios-lightbulb-outline"></span></div>
+              <div class="media-body">
+                <h3 class="heading">Innovation</h3>
+                <p>Utilizing cutting-edge carbon nanotube technology in order to create advance consumer products.</p>
+              </div>
+            </div>
 
-<script>
+          </div>
+          <div class="col-md-6 col-lg-4 element-animate ">
+            <div class="media block-6 d-block text-center">
+              <div class="icon mb-3"><span class="ion-ribbon-a"></span></div>
+              <div class="media-body">
+                <h3 class="heading">Expertise</h3>
+                <p>Combined, our team has over hundreds of patents and decades of experience in a variety of industries.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 element-animate ">
+            <div class="media block-6 d-block text-center">
+              <div class="icon mb-3"><span class="ion-ios-people-outline"></span></div>
+              <div class="media-body">
+                <h3 class="heading">Networks</h3>
+                <p>Connected with the best suppliers, scientists, and industry leaders that will be committed to you.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+    <section class="section element-animate">
+      <div class="container">
+        <div class="row align-items-center mb-5">
+          <div class="col-md-5 pr-md-5 mb-5">
+            <div class="block-41">
+              <div class="block-41-subheading d-flex">
+                <div class="block-41-number">01</div>
+                <div class="block-41-line align-self-center mx-2"></div>
+                <div class="block-41-subheading-2">Innovation</div>
+              </div>
+              <h2 class="block-41-heading mb-5">Let's Build Together</h2>
+              <div class="block-41-text">
+                <p>	Our team has experience innovating in the textile field. We can bring needed expertise to your project.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <img src="images/light.jpeg" alt="Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section element-animate bg-light">
+      <div class="container">
+        <div class="row align-items-center mb-5">
+          <div class="col-md-5 pl-md-5 mb-5 order-md-2">
+            <div class="block-41">
+              <div class="block-41-subheading d-flex">
+                <div class="block-41-number">02</div>
+                <div class="block-41-line align-self-center mx-2"></div>
+                <div class="block-41-subheading-2">Collaborate</div>
+              </div>
+              <h2 class="block-41-heading mb-5">Open for Collaboration</h2>
+              <div class="block-41-text">
+                <p>Partner with us for your next project. Our textile experts will help bring your idea to reality.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 order-md-1">
+            <img src="images/textile.jpeg" alt="Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
 
 
-	/*Toggle dropdown list*/
-	/*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+    <!-- <section class="section border-t pb-0">
+      <div class="container">
+        <div class="row justify-content-center mb-5 element-animate">
+          <div class="col-md-8 text-center">
+            <h2 class=" heading mb-4">Current Clients</h2>
+            <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row no-gutters">
+          <div class="col-md-4 element-animate">
+            <a href="project-single.html" class="link-thumbnail">
+              <h3>Project Name 1</h3>
+              <span class="ion-plus icon"></span>
+              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4 element-animate">
+            <a href="project-single.html" class="link-thumbnail">
+              <h3>Project Name 2</h3>
+              <span class="ion-plus icon"></span>
+              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4 element-animate">
+            <a href="project-single.html" class="link-thumbnail">
+              <h3>Project Name 3</h3>
+              <span class="ion-plus icon"></span>
+              <img src="images/img_3.jpg" alt="Image" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4 element-animate">
+            <a href="project-single.html" class="link-thumbnail">
+              <h3>Project Name 4</h3>
+              <span class="ion-plus icon"></span>
+              <img src="images/img_4.jpg" alt="Image" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4 element-animate">
+            <a href="project-single.html" class="link-thumbnail">
+              <h3>Project Name 5</h3>
+              <span class="ion-plus icon"></span>
+              <img src="images/img_5.jpg" alt="Image" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4 element-animate">
+            <a href="project-single.html" class="link-thumbnail">
+              <h3>Project Name 6</h3>
+              <span class="ion-plus icon"></span>
+              <img src="images/img_6.jpg" alt="Image" class="img-fluid">
+            </a>
+          </div>
+        </div>
 
-	var navMenuDiv = document.getElementById("nav-content");
-	var navMenu = document.getElementById("nav-toggle");
+      </div>
+    </section> -->
+    <!-- END section -->
 
-	document.onclick = check;
-	function check(e){
-	  var target = (e && e.target) || (event && event.srcElement);
+    <section class="section bg-light block-11">
+      <a name="team"></a>
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-8 text-center">
+            <h2 class=" heading mb-4">The Team</h2>
+            <!-- <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p> -->
+          </div>
+        </div>
+        <div class="nonloop-block-11 owl-carousel">
+          <!-- <div class="item">
+            <div class="block-33">
+                <div class="vcard d-flex mb-3">
+                  <div class="image align-self-center"><img src="images/person_3.jpg" alt="Person here"></div>
+                  <div class="name-text align-self-center">
+                    <h2 class="heading">John Smith</h2>
+                    <span class="meta">CEO, Co-Founder</span>
+                  </div>
+                </div>
+                <div class="text">
+                  <blockquote>
+                    <p>&rdquo; Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid. Atque dolore esse veritatis iusto eaque perferendis non dolorem fugiat voluptatibus vitae error ad itaque inventore accusantium tempore dolores sunt. &ldquo;</p>
+                  </blockquote>
+                </div>
+              </div>
+          </div> -->
 
-	  //Nav Menu
-	  if (!checkParent(target, navMenuDiv)) {
-		// click NOT on the menu
-		if (checkParent(target, navMenu)) {
-		  // click on the link
-		  if (navMenuDiv.classList.contains("hidden")) {
-			navMenuDiv.classList.remove("hidden");
-		  } else {navMenuDiv.classList.add("hidden");}
-		} else {
-		  // click both outside link and outside menu, hide menu
-		  navMenuDiv.classList.add("hidden");
-		}
-	  }
+          <div  class="item" style="width: 100%; margin-bottom: 10px; margin-right: 20px;">
+            <div class="block-33">
 
-	}
-	function checkParent(t, elm) {
-	  while(t.parentNode) {
-		if( t == elm ) {return true;}
-		t = t.parentNode;
-	  }
-	  return false;
-	}
-</script>
+                <div class="vcard d-flex mb-3">
+                  <div class="image align-self-center"><img src="images/mayur.png" alt="Person here"></div>
+                  <div class="name-text align-self-center">
+                    <h2 class="heading">Mayur Vansia</h2>
+                    <span class="meta">CEO, Founder</span>
+                  </div>
+                </div>
+                <div class="text">
+                  <blockquote>
+                    <p>Mayur Vansia is a material scientist with over 30 years of experience in the textile industry and a passion for solving-problems. He has extensive knowledge of textile development, polymers, adhesives, and bonding. Mayur’s research and development can be found in products such as garments, wearable technology, and other consumer goods. A veteran of companies like SPANX and Victoria’s Secret, he has been skilled in innovating textiles in order to solve consumer problems that have been championed for delivering growth. In addition, he has five patents. Mayur is excited to help others solve their problems and partner them with his vast network of industry connections.</p>
+                  </blockquote>
+                </div>
+              </div>
+          </div>
+
+          <div class="item">
+            <div class="block-33">
+                <div class="vcard d-flex mb-3">
+                  <div class="image align-self-center"><img src="images/Gupta.png" alt="Person here"></div>
+                  <div class="name-text align-self-center">
+                    <h2 class="heading">Dr.Tushar Shah</h2>
+                    <span class="meta">Scientific Advisor</span>
+                  </div>
+                </div>
+                <div class="text">
+                  <blockquote>
+                    <p>Dr. Tushar K. Shah is a highly experienced material scientist with an extensive wealth of knowledge in Polymers, Metals, Composites, Adhesives, Coatings, Paints and Primers. He has worked on numerous
+products associated with Defense, Aerospace, Automotive, Consumer Electronics, and Energy Storage.
+Tushar has researched, developed and implemented breakthrough solutions that significantly contribute
+to the expansion and enhancements of many products. He is an extremely skilled inventor of next
+generation technology with revolutionary impact that sustains and even strengthens profitability.
+Tushar is a “Hands-On” scientist that transitions ideas and products from inception through production
+processes. His accomplishments and ingenuity have earned him over 50 US patents as well as over 125
+international patents. Tushar Shah is a motivating team player that thrives under diversity and inclusion.</p>
+                  </blockquote>
+                </div>
+              </div>
+          </div>
+
+          <div class="item">
+            <div class="block-33">
+                <div class="vcard d-flex mb-3">
+                  <div class="image align-self-center"><img src="images/hayashi.JPG" alt="Person here"></div>
+                  <div class="name-text align-self-center">
+                    <h2 class="heading">Dr.Shunichi Hayashi</h2>
+                    <span class="meta">Scientific Advisor</span>
+                  </div>
+                </div>
+                <div class="text">
+                  <blockquote>
+                    <p>
+                      Dr. Shunichi Hayashi received his B.S. degree in Industrial Chemistry from Kanazawa University and immediately joined Mitsubishi Heavy Industries, Ltd., working on polymer development the polymerization of super heat resistant polymers. 
+                    	While at Dr. Hayashi also led the innovative effort for the development of Polyurethane Shape Memory Polymers at Mitsubishi, which has been in progress now for 17 years.  He was responsible for all research, development, and applications of SMPs at Mitsubishi.  He has published more than 100 technical papers and holds 219 patents worldwide.  In 2001 he also received a Ph.D. from Kanazawa University and is one of International committee members of International Smart materials Society.
+                    	 
+                    	After retirement of Mitsubishi Heavy Industries, Ltd, in 2008, he had established new company, SMP Technologies Inc <a style="color:blue" href="http://www.smptechno.com" target="_blank">http://www.smptechno.com</a> by his own which has the activities not only in Shape Memory Polymer field, but also in all of polymer science and their business.
+                    	 
+                    	Now he has the great activities both in academy and in business field.
+                    </p>
+                  </blockquote>
+                </div>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- END .block-4 -->
+    </section>
+
+    <section class="section">
+      <a name="contact"></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-5 order-2">
+            <!-- form logic for formspring -->
+            <form action="https://formspree.io/maypjpez"
+                method="POST">
+              <!-- <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" class="form-control ">
+                </div> -->
+                <!-- <div class="col-md-6 form-group">
+                  <label for="phone">Phone</label>
+                  <input type="text" id="phone" class="form-control ">
+                </div> -->
+              <!-- </div> -->
+              <div class="row">
+                <h2>Let's Work Together On Your Next Project</h2>
+                <div class="col-md-12 form-group">
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="email">Email</label>
+                  <input type="email" name="_replyto" id="email" class="form-control ">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="message">Write Your Message</label>
+                  <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="submit" value="Send Message" class="btn btn-primary px-3 py-3">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6 order-2 mb-5">
+            <div class="row justify-content-right">
+              <div class="col-md-8 mx-auto contact-form-contact-info">
+                <!-- <p class="d-flex">
+                  <span class="ion-ios-location icon mr-5"></span>
+                  <span>34 Street Name, City Name Here, United States</span>
+                </p>
+
+                <p class="d-flex">
+                  <span class="ion-ios-telephone icon mr-5"></span>
+                  <span>+1 242 4942 290</span>
+                </p> -->
+
+                <p class="d-flex">
+                  <span class="ion-android-mail icon mr-5"></span>
+                  <span>mvansia@tatvus.com</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
-</body>
+    <!-- <section>
+      <form
+        action="https://formspree.io/maypjpez"
+        method="POST"
+      >
+        <label>
+          Your email:
+          <input type="text" name="_replyto">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label> -->
 
+        <!-- your other form fields go here -->
+
+        <!-- <button type="submit">Send</button>
+      </form>
+
+
+    </section> -->
+
+    <footer class="site-footer" role="contentinfo">
+      <!-- <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4 mb-5">
+            <h3>About The Hexa Template</h3>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor blanditiis consequuntur ex voluptates perspiciatis omnis unde minima expedita.</p>
+            <ul class="list-unstyled footer-link d-flex footer-social">
+              <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
+              <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
+              <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
+            </ul>
+
+          </div>
+          <div class="col-md-5 mb-5 pl-md-5">
+            <h3>Contact Info</h3>
+            <ul class="list-unstyled footer-link">
+              <li class="d-block">
+                <span class="d-block">Address:</span>
+                <span class="text-white">34 Street Name, City Name Here, United States</span></li>
+              <li class="d-block"><span class="d-block">Telephone:</span><span class="text-white">+1 242 4942 290</span></li>
+              <li class="d-block"><span class="d-block">Email:</span><span class="text-white">info@yourdomain.com</span></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-5">
+            <h3>Quick Links</h3>
+            <ul class="list-unstyled footer-link">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Disclaimers</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+
+          </div>
+        </div> -->
+        <div class="row">
+          <div class="col-12 text-md-center text-left">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved | This template is made with <i class="fa fa-heart"
+                  aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END footer -->
+
+    <!-- loader -->
+    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
